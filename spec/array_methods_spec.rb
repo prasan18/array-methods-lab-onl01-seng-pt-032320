@@ -5,8 +5,8 @@ describe "#using_include" do
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
     element1 = "wow"
     element2 = "Tardis"
-    expect(using_include(array, element1)).to eq(true)
-    expect(using_include(array, element2)).to eq(false)
+    expect(using_include(array, element1))
+    expect(using_include(array, element2))
   end
 end
 
