@@ -5,8 +5,12 @@ describe "#using_include" do
     array = ["wow", "I", "am", "really", "learning", "arrays!"]
     element1 = "wow"
     element2 = "Tardis"
+<<<<<<< HEAD
     expect(using_include(array, element1))
     expect(using_include(array, element2))
+=======
+    expect(using_include(array, element))
+>>>>>>> d395ea6fdf1c8003d4bd7ecacf8400054ca6476b
   end
 end
 
